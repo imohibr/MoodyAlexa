@@ -13,9 +13,8 @@ var T = new Twit({
 
 AWS.config.update({
   apiVersion: '2017-11-27',
-  accessKeyId: 'AKIAI5QO2WWKVLL37NUQ',
-  // secretAccessKey: '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',
-  secretAccessKey: 'MmING8fTUJ0jQAiUoOacVfkg7uMGh3AbPz8vtif3',
+  accessKeyId: 'XXXXXXXXXXXXXXXXXXX',
+  secretAccessKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXX',
   region: 'us-east-1',
 });
 
