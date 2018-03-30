@@ -1,8 +1,8 @@
 var AWS = require('aws-sdk');
 
 AWS.config.update({
-  accessKeyId: 'AKIAIGF37SV5PBKPFPTQ',
-  secretAccessKey: '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',
+  accessKeyId: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  secretAccessKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   region: 'us-east-1'
 });
 
@@ -77,18 +77,6 @@ s3.upload(params, (err, data) => {
 //   //   }
 //   // });
 //
-//   var config = {
-//   "aws" : {
-//         "bucket": "mmsmhh-emotionrecognition",
-//         // "domain" : "",
-//         // "prefix" : "",
-//         // "path": "my/test/",
-//         "credentials" : {
-//             "accessKeyId": "AKIAIGF37SV5PBKPFPTQ",
-//             "secretAccessKey": "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"
-//         }
-//     }
-// };
 //
 // var getUniqueFilename = function(config) {
 //     var timestamp = (new Date()).getTime();
